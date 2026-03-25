@@ -41,12 +41,12 @@ export const SOCIALS = [
   {
     name: "LinkedIn",
     icon: RxLinkedinLogo,
-    link: "https://linkedin.com/in/cvhariharanandan",
+    link: "https://www.linkedin.com/in/hari-hara-nandan-cv-608240354",
   },
   {
     name: "GitHub",
     icon: RxGithubLogo,
-    link: "https://github.com/vedavyas2410",
+    link: "https://github.com/Hari-2426/",
   },
 ] as const;
 
@@ -60,9 +60,9 @@ export const PROJECTS = [
     ],
     highlight: "🏆 Won 1st Place at National-Level Hackathon among 100+ teams",
     tech: ["React", "JavaScript", "Machine Learning", "Random Forest", "Linear Regression"],
-    image: "/projects/project-1.png",
-    github: "https://github.com/vedavyas2410",
-    live: "#",
+    image: "/projects/agri-image.webp",
+    github: "https://github.com/Hari-2426/",
+    live: "https://smart-farming-rgm.vercel.app/",
   },
   {
     title: "Thomas Travels — Driver Management System",
@@ -73,70 +73,40 @@ export const PROJECTS = [
     ],
     highlight: "",
     tech: ["Java", "OOP", "JDBC", "MySQL"],
-    image: "/projects/project-2.png",
-    github: "https://github.com/vedavyas2410",
+    image: "/projects/thomas-travels.png",
+    github: "https://github.com/Hari-2426/Java-Travels-Mini-Project/tree/master",
     live: "#",
   },
 ] as const;
 
 export const FOOTER_DATA = [
   {
-    title: "Community",
+    title: "Social Media",
     data: [
       {
-        name: "YouTube",
-        icon: FaYoutube,
-        link: "https://youtube.com",
+        name: "LinkedIn",
+        icon: RxLinkedinLogo,
+        link: "https://www.linkedin.com/in/hari-hara-nandan-cv-608240354",
       },
       {
         name: "GitHub",
         icon: RxGithubLogo,
-        link: "https://github.com",
-      },
-      {
-        name: "Discord",
-        icon: RxDiscordLogo,
-        link: "https://discord.com",
+        link: "https://github.com/Hari-2426/",
       },
     ],
   },
   {
-    title: "Social Media",
+    title: "Contact & About",
     data: [
       {
-        name: "Instagram",
-        icon: RxInstagramLogo,
-        link: "https://instagram.com",
-      },
-      {
-        name: "Twitter",
-        icon: RxTwitterLogo,
-        link: "https://twitter.com",
-      },
-      {
-        name: "Linkedin",
-        icon: RxLinkedinLogo,
-        link: "https://linkedin.com",
-      },
-    ],
-  },
-  {
-    title: "About",
-    data: [
-      {
-        name: "Become Sponsor",
+        name: "vedavyas2410@gmail.com",
         icon: null,
-        link: "https://youtube.com",
-      },
-      {
-        name: "Learning about me",
-        icon: null,
-        link: "https://example.com",
+        link: "mailto:vedavyas2410@gmail.com",
       },
       {
         name: "Contact Me",
         icon: null,
-        link: "mailto:contact@example.com",
+        link: "#contact",
       },
     ],
   },
