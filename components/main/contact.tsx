@@ -28,9 +28,9 @@ export const Contact = () => {
             <h1 className="Welcome-text text-[13px]">Get In Touch</h1>
           </div>
           
-          <h2 className="text-3xl text-white font-bold">Let's Connect</h2>
+          <h2 className="text-3xl text-white font-bold">Let&apos;s Connect</h2>
           <p className="text-gray-400 text-lg leading-relaxed">
-            Feel free to reach out — I'm open to software development internship opportunities and exciting collaborations!
+            Feel free to reach out — I&apos;m open to software development internship opportunities and exciting collaborations!
           </p>
           
           <div className="flex items-center gap-4 mt-4 relative z-[30]">
