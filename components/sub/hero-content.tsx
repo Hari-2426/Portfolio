@@ -42,12 +42,44 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.5)}
           className="flex flex-col gap-6 mt-6 text-4xl md:text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
-          <span>
-            Full-Stack Developer <span className="text-gray-500 font-light hidden md:inline">|</span>{" "}
+          <motion.span
+            initial="hidden"
+            animate="visible"
+            variants={{
+              visible: {
+                transition: {
+                  staggerChildren: 0.08,
+                },
+              },
+            }}
+          >
+            {"Full-Stack Developer ".split("").map((char, index) => (
+              <motion.span
+                key={index}
+                variants={{
+                  hidden: { opacity: 0 },
+                  visible: { opacity: 1 },
+                }}
+              >
+                {char}
+              </motion.span>
+            ))}
+            <span className="text-gray-500 font-light hidden md:inline">|</span>{" "}
+            <br className="block md:hidden" />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-              Java + React
+              {"Java + React".split("").map((char, index) => (
+                <motion.span
+                  key={index}
+                  variants={{
+                    hidden: { opacity: 0 },
+                    visible: { opacity: 1 },
+                  }}
+                >
+                  {char}
+                </motion.span>
+              ))}
             </span>
-          </span>
+          </motion.span>
         </motion.div>
 
         <motion.p

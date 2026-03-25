@@ -84,7 +84,7 @@ export const Contact = () => {
           <form className="flex flex-col gap-6 h-full justify-center">
             <div className="flex flex-col gap-2">
               <label htmlFor="name" className="text-white text-sm font-medium">Your Name</label>
-              <input type="text" id="name" placeholder="John Doe" className="bg-[#11052c] border border-[#2A0E61] focus:border-purple-500 rounded-lg px-4 py-3 text-white outline-none transition-colors" />
+              <input type="text" id="name" placeholder="Your Name" className="bg-[#11052c] border border-[#2A0E61] focus:border-purple-500 rounded-lg px-4 py-3 text-white outline-none transition-colors" />
             </div>
             <div className="flex flex-col gap-2">
               <label htmlFor="email" className="text-white text-sm font-medium">Your Email</label>
